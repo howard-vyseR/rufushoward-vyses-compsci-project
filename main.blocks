@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="8ZsjOlU_HAHNvLV#~O[f">index</variable><variable id="KUrxrSvq)MbIKx.6#1,W">mySprite</variable><variable type="KIND_SpriteKind" id="IX*f6_{/+TZwcoLE5akK">Player</variable><variable type="KIND_SpriteKind" id="pDk=DPuv9PYqa!([D$$#">Projectile</variable><variable type="KIND_SpriteKind" id="O^GpW)=wKL`As_r[n|?j">Food</variable><variable type="KIND_SpriteKind" id="HRRI%:90b*Fj-5}cjKb(">Enemy</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor"><value name="color"><shadow type="colorindexpicker"><field name="index">9</field></shadow></value><next><block type="variables_set"><field name="VAR" id="KUrxrSvq)MbIKx.6#1,W">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . 3 3 3 3 3 3 . . . . . 
+. . . . . 3 3 3 3 3 3 . . . . . 
+. . . . . 3 3 3 3 3 3 . . . . . 
+. . . . . 3 3 3 3 3 3 . . . . . 
+. . . . . 3 3 3 3 3 3 . . . . . 
+. . . . . 3 3 3 3 3 3 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get"><field name="VAR" id="KUrxrSvq)MbIKx.6#1,W">mySprite</field></block></value><value name="vx"><shadow type="math_number"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number"><field name="NUM">100</field></shadow></value></block></next></block></next></block></statement></block></xml>
